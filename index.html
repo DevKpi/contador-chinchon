@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anotador Chinchón</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <meta name="theme-color" content="#1e88e5">
+</head>
+<body>
+  <main class="container">
+    <h1>Anotador de Chinchón</h1>
+
+    <section id="setup">
+      <label for="player-names">Jugadores (2 a 8, separados por coma):</label>
+      <input type="text" id="player-names" placeholder="Ana, Carlos, Juan">
+      <button id="start-btn">Iniciar Partida</button>
+    </section>
+
+    <section id="game" style="display: none;">
+      <div id="player-list" class="board"></div>
+      
+      <div class="round-box">
+        <h3 id="round-title">Mano #1</h3>
+        <div id="round-inputs"></div>
+        <button id="submit-round-btn">Guardar Mano</button>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

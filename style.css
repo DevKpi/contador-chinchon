@@ -1,0 +1,13 @@
+* { box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+body { background: #121212; color: #f0f0f0; margin: 0; padding: 1rem; }
+.container { max-width: 480px; margin: auto; }
+h1 { text-align: center; color: #64b5f6; font-size: 1.5rem; }
+button { width: 100%; padding: 0.8rem; background: #1e88e5; border: none; border-radius: 8px; color: #fff; font-size: 1rem; font-weight: bold; margin-top: 1rem; cursor: pointer; }
+input { width: 100%; padding: 0.7rem; border-radius: 6px; border: 1px solid #333; background: #222; color: #fff; margin-top: 0.4rem; font-size: 1rem; }
+.board { display: grid; gap: 0.5rem; margin-bottom: 1.5rem; }
+.player-card { background: #1e1e1e; padding: 0.8rem; border-radius: 8px; border-left: 4px solid #1e88e5; display: flex; justify-content: space-between; }
+.player-card.eliminated { border-left-color: #e53935; opacity: 0.5; }
+.tag-out { color: #e53935; font-size: 0.85rem; }
+.round-box { background: #1a1a1a; padding: 1rem; border-radius: 8px; border: 1px solid #333; }
+.input-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem; gap: 1rem; }
+.input-row input { width: 80px; text-align: center; margin: 0; }
